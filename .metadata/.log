@@ -32,3 +32,60 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2019-11-21 19:35:43.634
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:19.737
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:19.738
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@eb65fc8[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:19.740
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:19.812
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:23.932
+!MESSAGE Boot LS startup time from start to initialized: 4183ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.004
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WnHdiBpXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.010
+!MESSAGE subscribing to classpath changes: sts4.classpath.WnHdiBpX isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.012
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.015
+!MESSAGE subsribers = {sts4.classpath.WnHdiBpX=Send Classpath Notifications(132)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.015
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.016
+!MESSAGE project PPMToolFullStack ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.017
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.017
+!MESSAGE Preparing classpath changed notification PPMToolFullStack
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.018
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WnHdiBpX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.018
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.025
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.027
+!MESSAGE buffering callback sts4.classpath.WnHdiBpX PPMToolFullStack false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.028
+!MESSAGE executing callback sts4.classpath.WnHdiBpX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:46:24.161
+!MESSAGE executing callback sts4.classpath.WnHdiBpX SUCCESS [done]
