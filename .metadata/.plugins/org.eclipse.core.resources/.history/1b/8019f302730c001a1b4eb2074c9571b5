@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.tyagi.repositories;
+
+/**
+ * @author ityagi
+ *
+ */
+public interface ProjectRepository {
+
+}
