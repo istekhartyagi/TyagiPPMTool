@@ -3,9 +3,7 @@
  */
 package com.tyagi.web;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.validation.Valid;
 
@@ -35,12 +33,7 @@ public class ProjectController {
 	@PostMapping("")
 	public ResponseEntity<?> createNewProject(@Valid @RequestBody Project project, BindingResult result){
 		if(result.hasErrors()) {
-			Map<String, String> errorMap = new HashMap<String, String>();
-			for(FieldError error: result.getFieldErrors()) {
-				errorMap.put(error.getField(), error.getDefaultMessage());
-			}
-			//return new ResponseEntity<List<FieldError>>(result.getFieldErrors(),HttpStatus.BAD_REQUEST);
-			return new ResponseEntity<Map<String, String>>(errorMap,HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<List<FieldError>>(result.getFieldErrors(),HttpStatus.BAD_REQUEST);
 		}
 		Project project2 = projectService.saveOrUpdateProject(project);
 		return new ResponseEntity<Project>(project2,HttpStatus.CREATED);
