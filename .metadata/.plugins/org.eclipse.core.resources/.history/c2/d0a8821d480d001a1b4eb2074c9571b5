@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.tyagi.services;
+
+/**
+ * @author ityagi
+ *
+ */
+public class MapValidationErrorService {
+
+}
