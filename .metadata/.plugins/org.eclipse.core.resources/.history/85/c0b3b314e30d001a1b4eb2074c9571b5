@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.tyagi.exceptions;
+
+/**
+ * @author ityagi
+ *
+ */
+public class CustomResponseEntityExceptionHandler {
+
+}

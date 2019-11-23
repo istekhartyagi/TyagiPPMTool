@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.tyagi.domain.Project;
-import com.tyagi.exceptions.ProjectIdException;
 import com.tyagi.repositories.ProjectRepository;
 
 /**
@@ -20,11 +19,8 @@ public class ProjectService {
 	private ProjectRepository projectRepository;
 	
 	public Project saveOrUpdateProject(Project project) {
-		try {
-			return projectRepository.save(project);
-		}catch (Exception e) {
-			throw new ProjectIdException("Project ID '"+project.getProjectIdentifier().toUpperCase()+"' is already exists! ");
-		}
+		
+		return projectRepository.save(project);
 	}
 
 }
